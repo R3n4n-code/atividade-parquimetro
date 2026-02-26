@@ -6,14 +6,14 @@ class Parquimetro {
         this.valorMinimo = 1.00
         this.resultado = ""
     }
-// função para calcular troco
+    // função para calcular troco
     calcular() {
-// condição de valor insuficiente se valor for menor que 1
+        // condição de valor insuficiente se valor for menor que 1
         if (this.valorPago < this.valorMinimo) {
             this.resultado = "Valor insuficiente"
             return
         }
-// logica do troco e mostrar na tela o tempo ganho 
+        // logica do troco e mostrar na tela o tempo ganho 
         if (this.valorPago >= 3) {
             this.resultado = `Tempo: 120 minutos Troco: R$ ${(this.valorPago - 3).toFixed(2)}`
         }
@@ -25,15 +25,15 @@ class Parquimetro {
         }
     }
 
-   }
+}
 // chamar o codigo pelo botão 
-   function depositar() {
+function depositar() {
     const valorpago = Number(document.getElementById("valorpago").value)
 
     const chamarclass = new Parquimetro(valorpago)
 
     chamarclass.calcular()
-    
+
     document.getElementById("msg").textContent = chamarclass.resultado
-    document.getElementById("valorpago").value = "" 
-   }
+    document.getElementById("valorpago").value = ""
+}

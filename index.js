@@ -17,8 +17,8 @@ class Parquimetro {
         if (this.valorPago >= 3) {
             this.resultado = `Tempo: 120 minutos Troco: R$ ${(this.valorPago - 3).toFixed(2)}`
         }
-        else if (this.valorPago >= 1.5) {
-            this.resultado = `Tempo: 60 minutos Troco: R$ ${(this.valorPago - 1.5).toFixed(2)}`
+        else if (this.valorPago >= 1.75) {
+            this.resultado = `Tempo: 60 minutos Troco: R$ ${(this.valorPago - 1.75).toFixed(2)}`
         }
         else {
             this.resultado = `Tempo: 30 minutos Troco: R$ ${(this.valorPago - 1).toFixed(2)}`

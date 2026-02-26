@@ -1,0 +1,79 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: cursive;
+}
+body {
+
+    background-color: brown;
+}
+main {
+    display: block;
+    margin: 0 auto ;
+    margin-top: 15px;
+    text-align: center;
+    background-color: burlywood;
+    width: 270px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+main h1 {
+
+    margin-bottom: 15px;
+}
+
+::placeholder {
+
+    
+    text-align: center;
+}
+
+input {
+
+    border-radius: 6px;
+    border-style: solid;
+    
+}
+
+#valorpago {
+
+    text-align: center;
+}
+
+button {
+
+    margin-top: 15px;
+    width: 70px;
+    height: 30px;
+    color: black;
+    background-color: cadetblue;
+
+    
+}
+
+section {
+    display: block;
+    margin: 0 auto ;
+    margin-top: 15px;
+    text-align: center;
+    background-color: burlywood;
+    width: 250px;
+    border-radius: 8px;
+    border-style: solid;
+    text-align: center
+    
+    
+    
+}
+
+section h2 {
+
+    margin-bottom: 15px;
+    
+}
+
+#msg {
+
+    margin-top: 15px;
+}
